@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Love Calculator</title>
+
+<!-- CSS Style Link  -->
+    <link rel="stylesheet" href="StyleSheet\styles.css">
+
+<!-- Google Fonts Link -->
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+
+<!-- Font Awesome link -->
+<script src="https://kit.fontawesome.com/4115770fa0.js" crossorigin="anonymous"></script>
+
+  </head>
+  <body>
+    <div class="colorSection">
+      <h1 class="mainHeading">Love Calculator</h1>
+      <div class="topharts">
+        <i class="fas fa-heart fa-5x"></i>
+        <i class="fas fa-heart fa-5x"></i>
+        <i class="fas fa-heart fa-5x"></i>
+      </div>
+      <div class="bottomhartes">
+        <i class="fas fa-heart fa-5x"></i>
+        <i class="fas fa-heart fa-5x"></i>
+        <i class="fas fa-heart fa-5x"></i>
+      </div>
+    </div>
+
+    <div class="noColorSection">
+      <h1>Are you in love ?</h1>
+      <p>Is there someone you love but not sure how they
+        feel about you lets take your names and see how you match up.
+      </p>
+
+      <input id="firstName" type="text" name="firstName" value="" placeholder="Your name here">
+      <input id="secondeName" type="text" name="secondeName" value="" placeholder="Your cruches name">
+<br>
+      <input id="outPut" type="text" name="result" value="" >
+<br />
+      <button class="btn" type="button" name="button" onclick="loveFunction()">Calculate</button>
+      <button class="btn" type="button" name="button" onclick="clearLoveScore()">Clear</button>
+    </div>
+
+    <script src="indexJs.js" charset="utf-8"></script>
+
+  </body>
+</html>
